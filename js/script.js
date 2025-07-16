@@ -1,13 +1,12 @@
 'use strict';
 
-function apply(context, args){
+Function.prototype.applyFunc = function(context, args){
     context.fn = this;
     let result = context.fn(...args);
     delete context.fn;
     return result;
 }
-
-function bind(context){
+Function.prototype.bindFunc=function (context){
     let func = this;
     return function(a, b) {
         context.fn = func;
@@ -20,10 +19,10 @@ function greet(greeting, name) {
     return `${greeting}, ${name}! Я ${this.title}`
 }
 const context = { title: 'студент' };
-console.log(greet.apply(context, ['Вітаю Вас', 'Петро']));
+console.log(greet.applyFunc(context, ['Вітаю Вас', 'Петро']));
 const multiply = function(a, b) {
     return this.factor * a * b;
 }
 const ctx = { factor: 2 };
-const boundMultiply = multiply.bind(ctx);
+const boundMultiply = multiply.bindFunc(ctx);
 console.log(boundMultiply(3, 4));
