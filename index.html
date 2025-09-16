@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 53</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white mx-auto p-2 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary" href="#">Анна</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="border border-primary border-2 m-0 w-100 position-absolute bottom-0 start-0">
+        </div>
+    </nav>
+
+<div class="container mt-5 pt-5" id="about">
+    <div class="row">
+<div class="col-md-5 d-flex justify-content-center align-items-center">
+    <img class="img-fluid w-50 rounded-5 " src="source/1.jpg">
+    <div class="position-absolute bg-primary rounded-5 opacity-25 primary-square-img"></div>
+    <div class="position-absolute  rounded-5 border border-primary border-3 p-2 mb-2 opacity-75 primary-square-img-border"></div>
+</div>
+        <div class="col-md-6 d-flex flex-column justify-content-start align-items-start bg-white border border-primary rounded-5 p-3">
+        <h2 class="fw-light text-primary">Про себе</h2>
+        <h4 class="fs-5 fst-italic fw-light text-secondary">Десненко Анна</h4>
+            <p class="fst-italic fw-light m-3 text-secondary"> Народилася в м. Кривий Ріг.
+                У 17 років вступила до Київського національного університету будівництва і архітектури на спеціальність «Комп'ютерні науки».
+                У 2025 році здобула ступінь бакалавра та продовжила навчання у магістратурі за спеціальністю «Інженерія програмного забезпечення».
+                Наразі проживаю в м. Київ.<br>
+                У квітні 2025 року закінчила курс Front-End Basic у школі Hillel і наразі проходжу навчання на курсі Front-End Pro.
+            </p>
+            <div class="position-absolute  rounded-5 border border-primary border-3 p-2 mb-2 opacity-75 primary-square-text-border"></div>
+            <div class="position-absolute bg-secondary rounded-5 opacity-25 secondary-square-text"></div>
+
+    </div>
+    </div>
+</div>
+    <hr class="mb-5 mt-5" id="skills">
+    <div class="container d-flex flex-row justify-content-center mb-5 w-100">
+        <div class="border border-primary rounded-5 bg-white w-75 p-4">
+            <h3 class="text-center fw-light text-primary">Навички</h3>
+
+            <div class="w-100">
+                <h5 class="fw-light text-secondary mb-1">HTML</h5>
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;"
+                         aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="w-100">
+                <h5 class="fw-light text-secondary mb-1">CSS</h5>
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;"
+                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="w-100">
+                <h5 class="fw-light text-secondary mb-1">JavaScript</h5>
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;"
+                         aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="w-100">
+                <h5 class="fw-light text-secondary mb-1">Unity 3D</h5>
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;"
+                         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="w-100">
+                <h5 class="fw-light text-secondary mb-1">C#</h5>
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 40%;"
+                         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+        <div class="position-absolute bg-secondary rounded-5 opacity-25 secondary-square-skills"></div>
+        <div class="position-absolute  rounded-5 border border-secondary border-3 p-2 mb-2 text-skills-border"></div>
+    </div>
+    <hr class="mb-5 mt-5" id="contact">
+    <div class="container d-flex flex-row justify-content-center w-100">
+        <div class="border border-secondary rounded-5 bg-white w-50 p-4">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Ім'я</label>
+                    <input type="text" class="form-control" id="name" placeholder="Введіть ім'я">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Введіть email">
+                </div>
+
+                <div class="mb-3">
+                    <label for="message" class="form-label">Повідомлення</label>
+                    <textarea class="form-control" id="message" placeholder="Введіть повідомлення"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Відправити</button>
+            </form>
+
+        </div>
+        <div class="position-absolute rounded-5 border border-primary border-3 p-2 mb-2 opacity-75 primary-square-form-border"></div>
+        <div class="position-absolute bg-primary rounded-5 p-2 mb-2 opacity-50 primary-square-form"></div>
+    </div>
+    <footer class="bg-primary text-white pt-4 pb-3 mt-5">
+        <div class="container text-start">
+            <h5 class="fw-light mb-3">Контакти</h5>
+            <p class="mb-1">Email: <a href="mailto:vs.vs.pra@gmail.com" class="text-white text-decoration-underline">vs.vs.pra@gmail.com</a></p>
+            <p class="mb-1">Телефон: <a href="tel:+380977370182" class="text-white text-decoration-underline">+380977370182</a></p>
+            <p class="mb-0">Адреса: м. Київ, Україна</p>
+
+            <div class="mt-3">
+                <a href="https://www.instagram.com/vltskyy?igsh=Z3ZlbDAyY2xwdm9x" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/violetsky/" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/VioleetSky" class="text-white"><i class="bi bi-github"></i></a>
+            </div>
+            <p class="fw-light mt-3 text-center">© 2025 ANNA. All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>

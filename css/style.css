@@ -1,0 +1,130 @@
+.primary-square-img{
+    width: 250px;
+    height: 350px;
+    bottom: 275px;
+    left: 280px;
+    z-index: -1;
+}
+.secondary-square-text{
+    width: 650px;
+    height: 330px;
+    bottom: 325px;
+    right: 240px;
+    z-index: -1;
+}
+.primary-square-text-border{
+    width: 650px;
+    height: 330px;
+    bottom: 265px;
+    right: 190px;
+    z-index: -1;
+}
+.primary-square-img-border{
+    width: 250px;
+    height: 350px;
+    bottom: 295px;
+    left: 230px;
+    z-index: -1;
+}
+
+.text-skills-border{
+    width: 950px;
+    height: 320px;
+    top: 520px;
+    right: 250px;
+    z-index: -1;
+}
+.secondary-square-skills{
+    width: 950px;
+    height: 320px;
+    top: 575px;
+    left: 250px;
+    z-index: -1;
+}
+.primary-square-form-border{
+    width: 650px;
+    height: 350px;
+    top: 955px;
+    right: 450px;
+    z-index: -1;
+}
+.primary-square-form{
+    width: 650px;
+    height: 350px;
+    top: 1005px;
+    right: 405px;
+    z-index: -1;
+}
+
+
+@media (min-width: 769px) {
+    .primary-square-img{
+        width: 250px;
+        height: 350px;
+        bottom: 275px;
+        left: 280px;
+        z-index: -1;
+    }
+    .secondary-square-text{
+        width: 650px;
+        height: 330px;
+        bottom: 325px;
+        right: 240px;
+        z-index: -1;
+    }
+    .primary-square-text-border{
+        width: 650px;
+        height: 330px;
+        bottom: 265px;
+        right: 190px;
+        z-index: -1;
+    }
+    .primary-square-img-border{
+        width: 250px;
+        height: 350px;
+        bottom: 295px;
+        left: 230px;
+        z-index: -1;
+    }
+    .text-skills-border{
+        width: 950px;
+        height: 320px;
+        top: 520px;
+        right: 250px;
+        z-index: -1;
+    }
+    .secondary-square-skills{
+        width: 950px;
+        height: 320px;
+        top: 575px;
+        left: 250px;
+        z-index: -1;
+    }
+    .primary-square-form-border{
+        width: 650px;
+        height: 350px;
+        top: 955px;
+        right: 450px;
+        z-index: -1;
+    }
+    .primary-square-form{
+        width: 650px;
+        height: 350px;
+        top: 1005px;
+        right: 405px;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .primary-square-img,
+    .secondary-square-text,
+    .primary-square-text-border,
+    .primary-square-img-border,
+    .text-skills-border,
+    .secondary-square-skills,
+    .primary-square-form-border,
+    .primary-square-form {
+        display: none;
+    }
+}
