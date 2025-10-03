@@ -1,0 +1,14 @@
+a.active{
+    color: white;
+    background-color: #007bff;
+    border-radius: 6px;
+    padding: 4px 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none; display: flex; gap: 8px; padding: 0;
+}
+nav a{
+    text-decoration: none; padding: 4px 8px; color: #333;
+}
