@@ -1,0 +1,25 @@
+
+.weather-body {
+    transition: background 0.5s ease-in-out;
+}
+.weather-body.sunny {
+    background: linear-gradient(135deg, #FFD60A 0%, #FFA800 100%);
+}
+.weather-body.cloudy {
+    background: linear-gradient(135deg, #B0BEC5 0%, #78909C 100%);
+}
+
+.weather-body.fog {
+    background: linear-gradient(135deg, #ECEFF1 0%, #B0BEC5 100%);
+}
+.weather-body.rain {
+    background: linear-gradient(135deg, #455A64 0%, #263238 100%);
+}
+
+.weather-body.snow {
+    background: linear-gradient(135deg, #FFFFFF 0%, #E1F5FE 100%);
+}
+
+.weather-body.default {
+    background: linear-gradient(135deg, #007BFF 0%, #0056B3 100%);
+}
