@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Provider } from "react-redux"; // <--- обов'язково
+import { Provider } from "react-redux"; 
 import { ThemeProvider, createTheme } from "@mui/material";
 import AppRouter from "./router/AppRouter";
-import { store } from "./app/store"; // твій store
+import { store } from "./app/store"; 
 
 const theme = createTheme({
     palette: {
